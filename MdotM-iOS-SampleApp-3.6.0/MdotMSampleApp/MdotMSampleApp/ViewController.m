@@ -27,7 +27,7 @@
     
     [self.view setBackgroundColor:[UIColor colorWithRed:51.0/255.0 green:192.0/255.0 blue:239.0/255.0 alpha:1.0]];
     [self.scrollview setBackgroundColor:[UIColor colorWithRed:51.0/255.0 green:192.0/255.0 blue:239.0/255.0 alpha:1.0]];
-
+    
     self.rewardedLabel.hidden = YES;
     self.isRewardedSwitch.hidden = YES;
     
@@ -39,7 +39,7 @@
     [super viewWillAppear:animated];
     self.showAdButton.enabled = NO;
     self.statusLabel.text = @"Initialize Ad";
-
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -49,7 +49,7 @@
 
 -(IBAction)createRequest:(id)sender{
     
-
+    
     self.rewardedLabel.hidden = NO;
     self.isRewardedSwitch.hidden = NO;
     
@@ -58,25 +58,25 @@
     
     if(self.interstitialView==nil){
         self.intRequest = [[MdotMRequestParameters alloc] init];
-
+        
         
         self.interstitialView = [[MdotMInterstitial alloc]init];
         self.interstitialView.interstitialDelegate = self;
         
-        self.intRequest.appKey = @"testapp";
-        self.intRequest.test = @"1"; // 1 or video
+        self.intRequest.appKey = @"nofill";
+        self.intRequest.test = @"0"; // 1 or video
         
         
     }
     self.statusLabel.text = @"Initialization complete!";
-
+    
 }
 
 -(IBAction)sendRequest:(id)sender{
     
     self.rewardedLabel.hidden = YES;
     self.isRewardedSwitch.hidden = YES;
-
+    
     self.statusLabel.text = @"Receiving Ad...";
     
     if(self.isRewardedSwitch.isOn){
@@ -122,8 +122,9 @@
 
 -(IBAction)showAd:(id)sender{
     
-    [self.interstitialView showInterstitial:self animated:NO];
     self.statusLabel.text = @"";
+    [self performSelectorOnMainThread:@selector(displayAd) withObject:nil waitUntilDone:NO];
+    
     
 }
 
@@ -139,8 +140,7 @@
     self.showAdButton.enabled = YES;
     self.statusLabel.text = @"Show Ad";
     
-        [self performSelectorOnMainThread:@selector(displayAd) withObject:nil waitUntilDone:NO];
-
+    
     
 }
 
@@ -154,7 +154,7 @@
 {
     NSLog(@"onReceiveInterstitialAdError");
     self.statusLabel.text = @"Failed to cache";
-
+    
     
 }
 
@@ -201,7 +201,7 @@
     }
     UIAlertView *av = [[UIAlertView alloc]initWithTitle:@"Rewards" message:string delegate:self cancelButtonTitle:nil otherButtonTitles:@"OK", nil];
     [av show];
-
+    
 }
 
 @end

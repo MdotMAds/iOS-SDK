@@ -10,4 +10,4 @@ Check out our [wiki](http://docs.mdotm.com/index.php/MdotM_iOS_SDK) for document
 
 Suggesting improvements
 =======================
-To file bugs, make feature requests, or to suggest other improvements, please use [github's issue tracker](https://github.com/sourabhniyogi/mdotmiossampleapp/issues).
+To file bugs, make feature requests, or to suggest other improvements, please use [github's issue tracker](https://github.com/MdotMAds/iOS-SDK/issues).

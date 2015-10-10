@@ -1,6 +1,3 @@
-# iOS-SDK
-iOS SDK with Sample Application
-
 MdotM Ad SDK for iOS
 =============================
 The MdotM iOS SDK is mobile advertising SDK for iOS. The SDK enables mobile application developer to render video and image ads.

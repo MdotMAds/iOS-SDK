@@ -1,8 +1,12 @@
-MdotM Ad SDK for iOS
+MdotM Ad SDK & Sample Application for iOS
 =============================
 The MdotM iOS SDK is mobile advertising SDK for iOS. The SDK enables mobile application developer to render video and image ads.
 
 This repository contains the source code of samples for loading and rendering MdotM Ads.
+
+MdotM
+-----
+To get app keys [Sign up](http://platform.mdotm.com/page/register/publisher) to MdotM website and create your [appkey](http://platform.mdotm.com/account/sites)
 
 Documentation
 ==============

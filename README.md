@@ -7,20 +7,20 @@ This repository contains the iOS 3.6 SDK and source code of a sample application
 ## Release Notes
 
 ### iOS SDK 3.6: October 2015
-Major: Added Support for Native Ads.
-Minor: intepretation of VAST Icons (AdChoices and Ads by MdotM)
-Minor Counter display for Rewarded Video
+- Major: Added Support for Native Ads.
+- Minor: intepretation of VAST Icons (AdChoices and Ads by MdotM)
+- Minor Counter display for Rewarded Video
 
 ### iOS SDK 3.5: August 2015
-Major: Added Support for Rewarded Video, Eliminated Banner + Framed Ads Support
-Minor: iOS 9 SSL Suppport
+- Major: Added Support for Rewarded Video, Eliminated Banner + Framed Ads Support
+- Minor: iOS 9 SSL Suppport
 
 ### iOS SDK 3.4: May 2015
-Major: VAST 3.0 Companion Support
-Minor: Close Button Sizing and Location Control 
+- Major: VAST 3.0 Companion Support
+- Minor: Close Button Sizing and Location Control 
 
 ### iOS SDK 3.3: March 2015
-Major: VAST Video Duration and Close Button Improvements
+- Major: VAST Video Duration and Close Button Improvements
 
 ## Documentation
 

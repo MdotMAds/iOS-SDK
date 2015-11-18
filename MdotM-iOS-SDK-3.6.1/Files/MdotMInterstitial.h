@@ -12,8 +12,8 @@
 
 @class MdotMRequestParameters;
 @interface MdotMInterstitial : NSObject<MdotMInterstitialDelegate> {
-    
-    id<MdotMInterstitialDelegate>		interstitialDelegate;
+	
+	id<MdotMInterstitialDelegate>		interstitialDelegate;
 }
 @property (nonatomic,assign) id<MdotMInterstitialDelegate>		interstitialDelegate;
 

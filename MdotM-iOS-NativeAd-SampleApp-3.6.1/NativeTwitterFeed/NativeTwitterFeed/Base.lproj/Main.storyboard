@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--Feeds View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="FeedsViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" pagingEnabled="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="TW8-Qf-Jsf">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" red="0.25098039215686274" green="0.76078431372549016" blue="0.93333333333333335" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="separatorColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="6v6-GX-qMl"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="ScL-LD-cm4"/>
+                                </connections>
+                            </tableView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="RHB-pW-4ab">
+                                <rect key="frame" x="282" y="280" width="37" height="37"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.25098039215686274" green="0.76078431372549016" blue="0.93333333333333335" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="RHB-pW-4ab" secondAttribute="centerX" constant="-0.5" id="5pp-cc-jV4"/>
+                            <constraint firstItem="TW8-Qf-Jsf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="IlF-q8-e1G"/>
+                            <constraint firstAttribute="centerY" secondItem="RHB-pW-4ab" secondAttribute="centerY" constant="1.5" id="Jzf-Yd-iCh"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="TW8-Qf-Jsf" secondAttribute="bottom" id="b5V-yR-kaa"/>
+                            <constraint firstAttribute="trailing" secondItem="TW8-Qf-Jsf" secondAttribute="trailing" id="gyf-Yj-fXD"/>
+                            <constraint firstItem="TW8-Qf-Jsf" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="uNK-aL-dck"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="activityInd" destination="RHB-pW-4ab" id="eC0-Us-FUC"/>
+                        <outlet property="feedTableView" destination="TW8-Qf-Jsf" id="Nqj-Ji-5z9"/>
+                        <outlet property="view" destination="8bC-Xf-vdC" id="IWk-Fc-fZf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

@@ -7,8 +7,8 @@ This repository contains the iOS 3.6.1 SDK and source code of a sample applicati
 ## Release Notes
 
 ### iOS SDK 3.6.1: November 2015
-Major: Added Support for rendering array of Native Ads.
-Minor: Circular counter display for Rewarded Video
+- Major: Added Support for rendering array of Native Ads.
+- Minor: Circular counter display for Rewarded Video
 
 ### iOS SDK 3.6: October 2015
 - Major: Added Support for Native Ads.

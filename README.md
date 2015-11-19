@@ -2,9 +2,13 @@ MdotM iOS 3.6 SDK & Sample Application
 =============================
 The MdotM iOS SDK enables iOS application developers to display interstitial, video, rewarded video and native advertising.
 
-This repository contains the iOS 3.6 SDK and source code of a sample application for loading and rendering MdotM Ads.
+This repository contains the iOS 3.6.1 SDK and source code of a sample application for loading and rendering MdotM Ads.
 
 ## Release Notes
+
+### iOS SDK 3.6.1: November 2015
+Major: Added Support for rendering array of Native Ads.
+Minor: Circular counter display for Rewarded Video
 
 ### iOS SDK 3.6: October 2015
 - Major: Added Support for Native Ads.

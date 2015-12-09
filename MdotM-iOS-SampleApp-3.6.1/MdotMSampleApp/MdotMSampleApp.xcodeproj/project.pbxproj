@@ -38,6 +38,9 @@
 
 /* Begin PBXFileReference section */
 		9B25591B1B8DBBB50056CAAA /* libMdotMSDK3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMdotMSDK3.a; sourceTree = "<group>"; };
+		9BA51C151C184CE500501E94 /* MdotMNativeAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MdotMNativeAd.h; sourceTree = "<group>"; };
+		9BA51C161C184CE500501E94 /* MdotMNativeDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MdotMNativeDelegate.h; sourceTree = "<group>"; };
+		9BA51C171C184CE500501E94 /* MdotMNativeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MdotMNativeView.h; sourceTree = "<group>"; };
 		9BA7A0A51B56709800AD249C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		9BA7A0A61B56709800AD249C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		9BA7A0A71B56709800AD249C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
@@ -165,6 +168,9 @@
 				9BF2FE931B5556D500141D9A /* MdotMInterstitial.h */,
 				9BF2FE941B5556D500141D9A /* MdotMInterstitialDelegate.h */,
 				9BF2FE951B5556D500141D9A /* MdotMRequestParameters.h */,
+				9BA51C151C184CE500501E94 /* MdotMNativeAd.h */,
+				9BA51C161C184CE500501E94 /* MdotMNativeDelegate.h */,
+				9BA51C171C184CE500501E94 /* MdotMNativeView.h */,
 			);
 			path = "MdotM files";
 			sourceTree = "<group>";

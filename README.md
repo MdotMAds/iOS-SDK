@@ -6,6 +6,10 @@ This repository contains the iOS 3.6.1 SDK and source code of a sample applicati
 
 ## Release Notes
 
+### iOS SDK 3.6.2: December 2015
+- Major: Added Support for Mraid 1.0.
+- Minor: Beautified Circular counter display for Rewarded Video
+
 ### iOS SDK 3.6.1: November 2015
 - Major: Added Support for rendering array of Native Ads.
 - Minor: Circular counter display for Rewarded Video

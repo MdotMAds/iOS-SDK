@@ -464,7 +464,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "be384af6-bbba-4209-836c-954d281bc25e";
+				PROVISIONING_PROFILE = "bcbdbd41-0564-4101-bdf7-ccb11e6598d4";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -504,7 +504,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PROVISIONING_PROFILE = "be384af6-bbba-4209-836c-954d281bc25e";
+				PROVISIONING_PROFILE = "bcbdbd41-0564-4101-bdf7-ccb11e6598d4";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -526,7 +526,7 @@
 					"$(PROJECT_DIR)/NativeTwitterFeed/MdotMSDK",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "be384af6-bbba-4209-836c-954d281bc25e";
+				PROVISIONING_PROFILE = "bcbdbd41-0564-4101-bdf7-ccb11e6598d4";
 			};
 			name = Debug;
 		};
@@ -545,7 +545,7 @@
 					"$(PROJECT_DIR)/NativeTwitterFeed/MdotMSDK",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "be384af6-bbba-4209-836c-954d281bc25e";
+				PROVISIONING_PROFILE = "bcbdbd41-0564-4101-bdf7-ccb11e6598d4";
 			};
 			name = Release;
 		};
@@ -569,7 +569,7 @@
 					"$(PROJECT_DIR)/NativeTwitterFeed/MdotMSDK",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "be384af6-bbba-4209-836c-954d281bc25e";
+				PROVISIONING_PROFILE = "bcbdbd41-0564-4101-bdf7-ccb11e6598d4";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NativeTwitterFeed.app/NativeTwitterFeed";
 			};
 			name = Debug;
@@ -590,7 +590,7 @@
 					"$(PROJECT_DIR)/NativeTwitterFeed/MdotMSDK",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "be384af6-bbba-4209-836c-954d281bc25e";
+				PROVISIONING_PROFILE = "bcbdbd41-0564-4101-bdf7-ccb11e6598d4";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NativeTwitterFeed.app/NativeTwitterFeed";
 			};
 			name = Release;

@@ -20,6 +20,6 @@
 - (BOOL)loadInterstitialAd:(MdotMRequestParameters *)request;
 - (BOOL)loadRewardedVideo:(MdotMRequestParameters *)request reward:(NSString*)reward;
 - (void)showInterstitial:(UIViewController *)viewController animated:(BOOL)animated;
--(void) handleAppBecomeActive;
+-(void) handleAppBecomeActive; 
 
 @end

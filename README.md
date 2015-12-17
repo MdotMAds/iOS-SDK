@@ -35,4 +35,4 @@ This repository contains the iOS 3.6.2 SDK and source code of a sample applicati
 Check out our [wiki](https://github.com/MdotMAds/iOS-SDK/wiki) for documentation on using the SDK.
 
 ## Suggesting improvements
-To file bugs, make feature requests, or to suggest other improvements, please email sdksupport@mdotm.com
+To file bugs, make feature requests, or to suggest other improvements, please email sdksupport@mdotm.com 

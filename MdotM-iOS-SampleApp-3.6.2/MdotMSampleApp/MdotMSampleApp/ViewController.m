@@ -16,7 +16,7 @@
 
 @property (nonatomic, strong) MdotMRequestParameters *intRequest;
 @property (nonatomic, strong) MdotMInterstitial *interstitialView;
-
+ 
 @end
 
 @implementation ViewController

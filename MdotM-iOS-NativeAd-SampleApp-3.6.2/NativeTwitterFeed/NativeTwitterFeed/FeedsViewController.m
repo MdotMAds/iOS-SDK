@@ -18,7 +18,7 @@
 
 
 @interface FeedsViewController (){
-    }
+    } 
 @property (nonatomic, strong) MdotMRequestParameters *intRequest;
 
 @property(nonatomic,strong) NSMutableArray *twitterFeedsArray ;
